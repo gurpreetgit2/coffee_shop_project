@@ -1,0 +1,99 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment variables
+.env
+*.env
+
+# Auth0 configuration files (customize based on your project)
+auth_config.json
+
+# Flask specific
+instance/
+*.sqlite3
+*.db
+
+# Logs
+*.log
+logs/
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+
+# pip generated files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Coverage reports
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+*.cover
+*.py,cover
+.coverage
+*.log
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python wheel files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Node.js (if applicable for front-end integration)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*.old
+logs/
+
+# Auth0 sample .gitignore customization
+auth_config.json
+auth0_credentials.json
+
+# pip packages information
+installed_packages.txt
+installed_packages_post_removal.txt
+
+# remove ds dstore files
+.DS_Store
